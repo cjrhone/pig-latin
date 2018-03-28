@@ -18,3 +18,28 @@ span {
   font-size: 50px;
   color: #685762;
 }
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.danceFloor {
+  position: relative;
+  image-resolution: 100px;
+  top: 0;
+  left: 0;
+}
+.piggy {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+#animate {
+    position: relative;
+    background: transparent;
+    width: 200px;
+    height: 200px;
+}
