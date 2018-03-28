@@ -23,14 +23,14 @@ $(document).ready(function(e) {
     var width = $(document).width();
 
     function goRight() {
-        $("#animate").animate({
+        $("#animatePig").animate({
         left: 200
       }, 1000, function() {
          setTimeout(goLeft, 20);
       });
     }
     function goLeft() {
-        $("#animate").animate({
+        $("#animatePig").animate({
         left: 0
       }, 1000, function() {
          setTimeout(goRight, 20);

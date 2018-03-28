@@ -37,9 +37,13 @@ span {
   left: 70px;
 }
 
-#animate {
+#animatePig {
     position: relative;
     background: transparent;
     width: 200px;
     height: 200px;
+}
+
+.jumbotron {
+  background-image: url("../img/floor.gif");
 }
